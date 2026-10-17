@@ -26,7 +26,7 @@ MindCareAI is an AI-powered mental wellness web application designed to provide 
 **AI and Computer Vision**
 - DeepFace
 - OpenCV
-- TensorFlow (where required by the installed dependencies)
+- TensorFlow, if required by the installed dependencies
 - OpenRouter API for conversational responses
 
 ## Project Structure
@@ -43,6 +43,7 @@ MindCareAI/
 │   └── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ## Prerequisites
 
@@ -78,7 +79,7 @@ cd backend
 python -m pip install -r requirements.txt
 ```
 
-Configure your `OPENROUTER_API_KEY` in a local `.env` file inside the backend folder. Never commit this file or share your API key publicly.
+Create a local `.env` file inside the backend folder and configure your `OPENROUTER_API_KEY`. Never commit this file or share your API key publicly.
 
 Start the backend:
 
